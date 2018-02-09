@@ -2,7 +2,7 @@
 
 def mean(num_list):
     try:
-        mean = sum(num_list)/len(num_list)
+        mean = sum(num_list)/float(len(num_list))
         if isinstance(mean, complex):
             return NotImplemented
         return mean
