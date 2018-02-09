@@ -18,3 +18,10 @@ def test_long():
     exp = big/2.0
     assert obs == exp
     
+def test_complex():
+    #testing for complex numbers
+    #as arithmetic mean of complex numbers
+    num_list = [2 + 3j, 3+4j, -32 -2j]
+    obs = mean(num_list)
+    exp = NotImplemented
+    assert obs == exp
