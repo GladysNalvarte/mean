@@ -1,3 +1,3 @@
 # mean
-code for the testing workshop
-We will use travis
+repo to learn how to use travis
+
